@@ -1,5 +1,5 @@
 .bg-image {
-	height: 100%;
+	height: 100vh;
 	background-image: url("../img/featured-image.jpg");
 	background-position: center center;
 	background-size: cover;
@@ -8,6 +8,10 @@
 	height: 60px;
 	width: 60px;
 }
-body {
+.portrait {
+	height: 308px;
+	width: 308px;
+}
+body, .padded-top {
 	padding-top: 65px;
 }
