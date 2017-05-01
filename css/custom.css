@@ -1,5 +1,5 @@
 .bg-image {
-	height: 100vh;
+	height: 125vh;
 	background-image: url("../img/featured-image.jpg");
 	background-position: center center;
 	background-size: cover;
@@ -12,6 +12,7 @@
 	height: 308px;
 	width: 308px;
 }
+/*so the fixed navbar doesn't cover up content*/
 body, .padded-top {
 	padding-top: 65px;
 }

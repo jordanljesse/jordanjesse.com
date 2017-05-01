@@ -25,7 +25,7 @@
     </head>
 
     <body>
-    <?=$thankYou?> <!-- displays status message -->
+    <?=$thankYou?> <!-- displays status message after user submits form-->
         <nav class="navbar navbar-toggleable fixed-top navbar-inverse bg-inverse">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,8 +33,8 @@
             <a class="navbar-brand" href="#hero"><h2>JLJ</h2></a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#portfolio">Portfolio</a>
@@ -45,7 +45,7 @@
                 </ul>
             </div>
         </nav>
-        <section id="hero" class="bg-image padded-top">
+        <section id="hero" class="bg-image padded-top pb-5">
                 <div class="container-fluid text-white">
                     <div class="row pt-5">
             			<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
@@ -54,22 +54,18 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                	        <p class="text-justify">Hi! My name's Jordan and I'm a Los Angeles-bound web developer currently based in Lawrence, KS. I'm working hard right now to design and build a new home page, which should be up this weekend(4/30). Cheers!</p>
-                        </div>
-                    </div>
-                    <div class="row p-3">
-                        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 text-center p-5">
-            		        <a href="#contact"><button class="btn btn-primary" type="button">Contact Me</button></a>
-                        </div>
+                	        <p class="text-justify">Hi! My name's Jordan and I'm a Los Angeles bound front end developer interested in full stack web development, embedded software, and data visualization.</p>                        </div>
                     </div>
                 </div>
         </section>
         <section id="about" class="bg-inverse text-white padded-top">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-7 col-lg-6 offset-lg-1">
+                    <div class="col-md-7 col-lg-6 offset-lg-1 pb-5">
                         <h2 class="text-center p-5">About</h2>
-        		    	<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus optio beatae praesentium unde veritatis aliquam neque quam corporis quisquam reprehenderit ratione tenetur, quod repudiandae rerum, cumque laudantium velit. Praesentium, a. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ex incidunt natus. Nemo eum adipisci, enim in, ducimus eligendi molestiae delectus repellat dolor temporibus, esse officiis voluptas excepturi similique ullam.</p>
+        		    	<p class="text-justify">I served in the Air Force for six years during which I worked hard, traveled far, and made some amazing friends along the way. Funny story: when I enlisted I told the military I would be glad to be stationed "anywhere warm" and they sent me to Wyoming. It is my dream to find myself living someplace where it doesn't snow during the winter.</p>
+
+                        <p>I love developing new skills and cycling through a variety of hobbies. I do my best to grow a little as a musician, painter, photographer, writer, and technologist each year and enjoy wearing many hats, so to speak(fun fact: I was once a dance teacher). I'm an autodidact through and through, and as such I'm the most happy when I'm learning something new(specifically, when I get to apply some new skill/idea). That's why I'm so excited to be spending the second half of 2017 learning full stack Javascript(in sunny California!) and building cool new projects! If you'd like to read more about my learning journey and what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io">blog</a>.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
         		    	<img class="portrait" src="img/oval-portrait.png" alt="A photo of Jordan.">
@@ -86,17 +82,17 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-        		    	<p class="text-justify pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At nulla, sint adipisci, impedit cum quos dolorum voluptatibus sapiente debitis pariatur perspiciatis officiis dolorem voluptatem dolore! Numquam consequatur eaque rerum voluptatibus.</p>
+        		    	<p class="text-justify pb-5">As a junior front end developer I use design principles when coming up with solutions and strive to write performant, maintainable, and readable code. I try to follow industry best practices while exploring future technologies.</p>
         	    	</div>
                 </div>
             </div>
             <div class="row no-gutters">
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/la-bw.jpg" class="img-fluid" alt=""></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio1.jpg" class="img-fluid" alt=""></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio2.jpg" class="img-fluid" alt=""></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio3.jpg" class="img-fluid" alt=""></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio4.jpg" class="img-fluid" alt=""></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio5.jpg" class="img-fluid" alt=""></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><img src="img/portfolio6.jpg" class="img-fluid" alt=""></div>
     		</div>
         </section> <!-- closes 'portfolio'  -->
         <section id="contact" class="bg-inverse text-white padded-top">
@@ -127,7 +123,7 @@
                         </form>
         	    	</div>
                     <div class="col-md-6 col-lg-5">
-                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae voluptatem facere nihil quo culpa sit! Nemo officia praesentium ipsum enim repudiandae possimus animi blanditiis porro, dolorum earum quia nobis explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates beatae voluptatum, mollitia natus, quibusdam porro animi nemo veritatis architecto obcaecati modi dolorum repudiandae? Distinctio, quidem. Libero id maxime omnis quae?</p>
+                        <p class="text-justify">Feel free to reach out to me with any questions or comments you might have regarding your project, design woes, or technical conundrums. You can also find me being social online using the links below.</p>
                         <ul class="list-inline">
                             <a href="https://twitter.com/codejordancode"><li class="list-inline-item px-4"><img class="social" src="img/twitter.svg"></li></a>
                             <a href="https://github.com/jordanljesse"><li class="list-inline-item px-4"><img class="social" src="img/github.png"></li></a>
