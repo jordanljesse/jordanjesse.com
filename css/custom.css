@@ -16,3 +16,6 @@
 body, .padded-top {
 	padding-top: 65px;
 }
+.text-white {
+    letter-spacing: 0.5pt;
+}
