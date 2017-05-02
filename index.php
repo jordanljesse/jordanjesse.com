@@ -88,12 +88,12 @@
                 </div>
             </div>
             <div class="row no-gutters">
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="http://www.thatcherstrainingcenter.com" target="new"><img src="img/portfolio1.jpg" class="img-fluid" alt="A screenshot of the Thatchers Training Center homepage."></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img src="img/portfolio2.jpg" class="img-fluid" alt=""></a></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img src="img/portfolio3.jpg" class="img-fluid" alt=""></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img src="img/portfolio4.jpg" class="img-fluid" alt=""></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img src="img/portfolio5.jpg" class="img-fluid" alt=""></a></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img src="img/portfolio6.jpg" class="img-fluid" alt=""></a></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="http://www.thatcherstrainingcenter.com" target="new"><img src="img/portfolio1.jpg" srcset="img/portfolio1@2x.jpg 800w" class="img-fluid" alt="A screenshot of the Thatchers Training Center homepage."></a></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio2.jpg" srcset="img/portfolio2@2x.jpg 800w" alt=""></a></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio3.jpg" srcset="img/portfolio3@2x.jpg 800w" alt=""></a></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio4.jpg" srcset="img/portfolio4@2x.jpg 800w" alt=""></a></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio5.jpg" srcset="img/portfolio5@2x.jpg 800w" alt=""></a></div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio6.jpg" srcset="img/portfolio6@2x.jpg 800w" alt=""></a></div>
     		</div>
         </section> <!-- closes 'portfolio'  -->
         <section id="contact" class="bg-inverse text-white padded-top">
