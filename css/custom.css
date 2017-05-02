@@ -12,6 +12,10 @@
 	height: 308px;
 	width: 308px;
 }
+.img-portfolio {
+	height: 220px;
+	width: 400px;
+}
 /*so the fixed navbar doesn't cover up content*/
 body, .padded-top {
 	padding-top: 65px;
