@@ -2,7 +2,7 @@
 <?php
     if($_POST["submit"]) {
         $recipient="info@jordanjesse.com";
-        $subject="Contact form to email message";
+        $subject="From jordanjesse.com contact form";
         $name=$_POST["name"];
         $email=$_POST["email"];
         $message=$_POST["message"];
@@ -54,7 +54,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                	        <p class="text-justify">Hi! My name's Jordan and I'm a Los Angeles bound front end developer interested in full stack web development, embedded software, and data visualization.</p>
+                	        <p class="text-center">Hi! My name's Jordan and I'm a Los Angeles bound front end developer interested in full stack web development, embedded software, and data visualization.</p>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,9 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-6 offset-lg-1 pb-5">
                         <h2 class="text-center p-5">About</h2>
-        		    	<p class="text-justify">Hi! My name's Jordan and I'm a musician, designer, and veteran who enjoys solving problems with code. I served in the Air Force for six years during which I traveled far, learned a lot, and made some amazing friends. Funny story: when I enlisted I requested to be stationed "anywhere warm" and the military sent me to Wyoming. Since leaving the military I have sold everything I own to travel across the country, studied graphic design in college, and realized that code was the medium I liked best.</p>
+        		    	<p class="text-justify">Welcome! I'm Jordan and I am a musician, designer, and veteran who enjoys solving problems with code. I served in the Air Force for six years during which I traveled far, learned a lot, and made some amazing friends. Funny story: when I enlisted I requested to be stationed "anywhere warm" and the military sent me to Wyoming. Since leaving the military I have sold everything I own to travel across the country, studied graphic design in college, and realized that code was the medium I liked best.</p>
 
-                        <p>I love developing new skills and cycling through a variety of hobbies. I do my best to grow a little as a musician, designer, photographer, writer, and technologist each year and enjoy wearing many hats, so to speak(fun fact: I was once a professional skateboarder and dance teacher). I'm an autodidact through and through, and as such I'm the most happy when I'm learning something new(specifically, when I get to apply some new skill/idea). That's why I'm so excited to be spending the second half of 2017 learning full stack Javascript in sunny California! If you'd like to read more about my learning journey and what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
+                        <p>I love developing new skills and cycling through a variety of hobbies. I do my best to grow a little as a musician, designer, photographer, writer, and technologist each year and enjoy wearing many hats, so to speak. I'm an autodidact through and through, and as such I'm the most happy when I'm learning something new(specifically, when I get to apply some new skill/idea). That's why I'm so excited to be spending the second half of 2017 learning full stack Javascript in sunny California! If you'd like to read more about my learning journey and what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
         		    	<img class="portrait" src="img/oval-portrait.png" alt="A photo of Jordan.">
