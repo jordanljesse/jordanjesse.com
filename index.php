@@ -9,16 +9,16 @@
         $mailBody="Name: $name\nEmail: $email\n\n$message";
         mail($recipient, $subject, $mailBody, "From: jordanljesse@vernonia.dreamhost.com");
         $thankYou="<p>Thank you! Your messsage has been sent.</p>";
-        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Jordan Jesse | Web Developer</title>
+        <title>Jordan Jesse | Full Stack Developer</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="author" content="Jordan Jesse"/>
-        <meta name="description" content="The online portfolio of web developer Jordan Jesse."/>
+        <meta name="description" content="The online portfolio of Jordan Jesse."/>
 
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/custom.css"/>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                	        <p class="text-center">Hi! My name's Jordan and I'm a Los Angeles bound front end developer interested in full stack web development, embedded software, and data visualization.</p>
+                	        <p class="text-center">Hi! My name's Jordan and I'm a Los Angeles based full stack developer interested in web development, embedded software, and data visualization.</p>
                         </div>
                     </div>
                 </div>
@@ -64,9 +64,7 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-6 offset-lg-1 pb-5">
                         <h2 class="text-center p-5">About</h2>
-        		    	<p class="text-justify">Welcome! I'm Jordan and I am a musician, designer, and veteran who enjoys solving problems with code. I served in the Air Force for six years during which I traveled far, learned a lot, and made some amazing friends. Funny story: when I enlisted I requested to be stationed "anywhere warm" and the military sent me to Wyoming. Since leaving the military I have sold everything I own to travel across the country, studied graphic design in college, and realized that code was the medium I liked best.</p>
-
-                        <p>I love developing new skills and cycling through a variety of hobbies. I do my best to grow a little as a musician, designer, photographer, writer, and technologist each year and enjoy wearing many hats, so to speak. I'm an autodidact through and through, and as such I'm the most happy when I'm learning something new(specifically, when I get to apply some new skill/idea). That's why I'm so excited to be spending the second half of 2017 learning full stack Javascript in sunny California! If you'd like to read more about my learning journey and what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
+        		    	<p class="text-justify">Welcome! I'm Jordan and I am a designer and developer who enjoys solving problems across the entire web stack using Microsoft technologies. If you'd like to read more about what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
         		    	<img class="portrait" src="img/oval-portrait.png" alt="A photo of Jordan.">
@@ -126,7 +124,6 @@
                     <div class="col-md-6 col-lg-5">
                         <p class="text-justify">Feel free to reach out to me with any questions or comments you might have regarding your project, design woes, or technical conundrums. You can also find me being social online using the links below.</p>
                         <ul class="list-inline">
-                            <a href="https://twitter.com/codejordancode"><li class="list-inline-item p-4"><img class="social" src="img/twitter.svg"></li></a>
                             <a href="https://github.com/jordanljesse"><li class="list-inline-item p-4"><img class="social" src="img/github.png"></li></a>
                             <a href="https://codepen.io/jljesse"><li class="list-inline-item p-4"><img class="social" src="img/codepen.png"></li></a>
                             <a href="https://linkedin.com/in/jordan-jesse-87b103121"><li class="list-inline-item p-4"><img class="social" src="img/linked-in.png"></li></a>
@@ -146,6 +143,6 @@
         </footer>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/smooth-scroll.js"></script> <!-- jQuery is required for smooth-scroll to work -->
+        <script src="js/smooth-scroll.js"></script>
     </body>
 </html>
