@@ -1,4 +1,3 @@
-<!-- takes the message from 'Contact' form and sends it as an email -->
 <?php
     if($_POST["submit"]) {
         $recipient="info@jordanjesse.com";
@@ -19,15 +18,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <meta name="author" content="Jordan Jesse"/>
         <meta name="description" content="The online portfolio of Jordan Jesse."/>
-
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/custom.css"/>
     </head>
-
     <body>
-    <?=$thankYou?> <!-- displays status message after user submits form-->
+    <?=$thankYou?>
         <nav class="navbar navbar-toggleable fixed-top navbar-inverse bg-inverse">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar-toggler-right"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#hero"><h2>JLJ</h2></a>
@@ -67,7 +70,10 @@
         		    	<p class="text-justify">Welcome! I'm Jordan and I am a designer and developer who enjoys solving problems across the entire web stack using Microsoft technologies. If you'd like to read more about what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
-        		    	<img class="portrait" src="img/oval-portrait.png" alt="A photo of Jordan.">
+        		    	<img class="portrait" 
+                             src="img/oval-portrait.png" 
+                             srcset="img/oval-portrait@2x.png 800w" 
+                             alt="A photo of Jordan.">
         			</div>
         	    </div>
             </div> <!-- closes 'container-fluid' div -->
@@ -86,12 +92,39 @@
                 </div>
             </div>
             <div class="row no-gutters">
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="http://www.thatcherstrainingcenter.com" target="new"><img src="img/portfolio1.jpg" srcset="img/portfolio1@2x.jpg 800w" class="img-fluid" alt="A screenshot of the Thatchers Training Center homepage."></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio2.jpg" srcset="img/portfolio2@2x.jpg 800w" alt=""></a></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio3.jpg" srcset="img/portfolio3@2x.jpg 800w" alt=""></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio4.jpg" srcset="img/portfolio4@2x.jpg 800w" alt=""></a></div>
-    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio5.jpg" srcset="img/portfolio5@2x.jpg 800w" alt=""></a></div>
-                <div class="col-xs-12 col-md-6 col-lg-4 m-auto"><a href="#"><img class="img-fluid" src="img/portfolio6.jpg" srcset="img/portfolio6@2x.jpg 800w" alt=""></a></div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="http://www.thatcherstrainingcenter.com" target="new">
+                        <img src="img/portfolio1.jpg" 
+                             srcset="img/portfolio1@2x.jpg 800w" 
+                             class="img-fluid" 
+                             alt="A screenshot of the Thatchers Training Center homepage.">
+                    </a>
+                </div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="img/portfolio2.jpg" srcset="img/portfolio2@2x.jpg 800w" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="img/portfolio3.jpg" srcset="img/portfolio3@2x.jpg 800w" alt="">
+                    </a>
+                </div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="img/portfolio4.jpg" srcset="img/portfolio4@2x.jpg 800w" alt="">
+                    </a>
+                </div>
+    			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="img/portfolio5.jpg" srcset="img/portfolio5@2x.jpg 800w" alt="">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 m-auto">
+                    <a href="#">
+                        <img class="img-fluid" src="img/portfolio6.jpg" srcset="img/portfolio6@2x.jpg 800w" alt="">
+                    </a>
+                </div>
     		</div>
         </section> <!-- closes 'portfolio'  -->
         <section id="contact" class="bg-inverse text-white padded-top">
@@ -124,14 +157,26 @@
                     <div class="col-md-6 col-lg-5">
                         <p class="text-justify">Feel free to reach out to me with any questions or comments you might have regarding your project, design woes, or technical conundrums. You can also find me being social online using the links below.</p>
                         <ul class="list-inline">
-                            <a href="https://github.com/jordanljesse"><li class="list-inline-item p-4"><img class="social" src="img/github.png"></li></a>
-                            <a href="https://codepen.io/jljesse"><li class="list-inline-item p-4"><img class="social" src="img/codepen.png"></li></a>
-                            <a href="https://linkedin.com/in/jordan-jesse-87b103121"><li class="list-inline-item p-4"><img class="social" src="img/linked-in.png"></li></a>
+                            <a href="https://github.com/jordanljesse">
+                                <li class="list-inline-item p-4">
+                                    <img class="social" src="img/github.png">
+                                </li>
+                            </a>
+                            <a href="https://codepen.io/jljesse">
+                                <li class="list-inline-item p-4">
+                                    <img class="social" src="img/codepen.png">
+                                </li>
+                            </a>
+                            <a href="https://linkedin.com/in/jordan-jesse-87b103121">
+                                <li class="list-inline-item p-4">
+                                    <img class="social" src="img/linked-in.png">
+                                </li>
+                            </a>
                         </ul>
                     </div>
             	</div>
-            </div> <!-- closes 'container-fluid' div -->
-        </section> <!-- closes 'contact' section -->
+            </div>
+        </section>
         <footer class="bg-faded">
             <div class="container-fluid">
                 <div class="row">
