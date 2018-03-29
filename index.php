@@ -19,7 +19,7 @@
         <meta name="author" content="Jordan Jesse"/>
         <meta name="description" content="The online portfolio of Jordan Jesse."/>
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="css/custom.css"/>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
     </head>
     <body>
     <?=$thankYou?>
@@ -52,7 +52,7 @@
                 <div class="container-fluid text-white">
                     <div class="row pt-5">
             			<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-            		        <h1 class="display-3 text-center py-5">Jordan Jesse</h1>
+            		        <h1 class="display-1 text-center py-5">Jordan Jesse</h1>
                         </div>
                     </div>
                     <div class="row">
@@ -76,8 +76,8 @@
                              alt="A photo of Jordan.">
         			</div>
         	    </div>
-            </div> <!-- closes 'container-fluid' div -->
-        </section> <!-- closes 'about' section -->
+            </div>
+        </section>
         <section id="portfolio" class="padded-top">
             <div class="container-fluid">
         	    <div class="row">
@@ -126,7 +126,7 @@
                     </a>
                 </div>
     		</div>
-        </section> <!-- closes 'portfolio'  -->
+        </section>
         <section id="contact" class="bg-inverse text-white padded-top">
             <div class="container-fluid">
         	    <div class="row">
