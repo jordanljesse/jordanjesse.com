@@ -52,12 +52,12 @@
                 <div class="container-fluid text-white">
                     <div class="row pt-5">
             			<div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-            		        <h1 class="display-1 text-center py-5">Jordan Jesse</h1>
+            		        <h1 class="display-1 text-center py-5"><strong>Jordan Jesse</strong></h1>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
-                	        <p class="text-center">Hi! My name's Jordan and I'm a Los Angeles based full stack developer interested in web development, embedded software, and data visualization.</p>
+                	        <p class="text-center">Hello! My name's Jordan and I'm a Los Angeles based Software Engineer interested in full stack web development, embedded software, and data visualization.</p>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,8 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-6 offset-lg-1 pb-5">
                         <h2 class="text-center p-5">About</h2>
-        		    	<p class="text-justify">Welcome! I'm Jordan and I am a designer and developer who enjoys solving problems across the entire web stack using Microsoft technologies. If you'd like to read more about what I'm working on lately, you can check out my <a href="https://jordanljesse.github.io" target="new">blog</a>.</p>
+        		    	<p class="text-justify">I'm a Software Engineer with a design background who's passionate about building things for the web. I'm really excited about <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Progressive Web Apps</a> and how they enable developers to write code once that runs everywhere(even offline!). Feel free to read through my <a href="https://jordanljesse.github.io" target="new">blog</a> to see what I'm thinking about and tinkering with lately.
+                        <br><br>I'm currently a Software Consultant for Computech Corporation and enjoy getting to solve problems across a wide variety of domains. When I'm not working on software or writing about technology I like to produce music, read books, and practice street photography.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
         		    	<img class="portrait" 
@@ -87,7 +88,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-        		    	<p class="text-justify pb-5">As a junior front end developer I use design principles when coming up with solutions and strive to write performant, maintainable, and readable code. I try to follow industry best practices while exploring future technologies.</p>
+        		    	<p class="text-justify pb-5">As a young developer, I use design principles when coming up with solutions and strive to write code that is readable, scalable, and fast. Here are some of my favorite projets.</p>
         	    	</div>
                 </div>
             </div>
