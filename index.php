@@ -88,7 +88,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-8 col-lg-6 offset-md-2 offset-lg-3">
-        		    	<p class="text-justify pb-5">As a young developer, I use design principles when coming up with solutions and strive to write code that is readable, scalable, and fast. Here are some of my favorite projets.</p>
+        		    	<p class="text-justify pb-5">As a young developer, I use design principles when coming up with solutions and strive to write code that is readable, scalable, and fast. Here are some of my favorite projects.</p>
         	    	</div>
                 </div>
             </div>
