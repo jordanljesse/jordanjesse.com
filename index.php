@@ -22,7 +22,7 @@
         <link rel="stylesheet" type="text/css" href="css/main.css"/>
     </head>
     <body>
-    <?=$thankYou?>
+    <?=$thankYou?> <!-- displays thank you message from contact form submission -->
         <nav class="navbar navbar-toggleable fixed-top navbar-inverse bg-inverse">
             <button class="navbar-toggler navbar-toggler-right"
                     type="button"
@@ -67,14 +67,14 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-6 offset-lg-1 pb-5">
                         <h2 class="text-center p-5">About</h2>
-        		    	<p class="text-justify">I'm a Software Engineer with a design background who's passionate about building things for the web. I'm really excited about <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Progressive Web Apps</a> and how they enable developers to write code once that runs everywhere(even offline!). Feel free to read through my <a href="https://jordanljesse.github.io" target="new">blog</a> to see what I'm thinking about and tinkering with lately.
-                        <br><br>I'm currently a Software Consultant for Computech Corporation and enjoy getting to solve problems across a wide variety of domains. When I'm not working on software or writing about technology I like to produce music, read books, and practice street photography.</p>
+        		    	<p class="text-justify">I'm a programmer with a design background who's passionate about building things for the web. I'm really excited about <a href="https://developers.google.com/web/progressive-web-apps/" target="_blank">Progressive Web Apps</a> and how they enable developers to write code once that runs everywhere(even offline!). Feel free to read through my <a href="https://jordanljesse.github.io" target="new">blog</a> to see what I'm thinking about and tinkering with lately.
+                        <br><br>I'm currently a Software Consultant for Computech Corporation and enjoy solving problems across a wide variety of domains. When I'm not working on software or writing about technology I like to produce music, read books, and practice street photography.</p>
                     </div>
         	    	<div class="col-md-4 py-5 text-center">
         		    	<img class="portrait" 
                              src="img/oval-portrait.png" 
                              srcset="img/oval-portrait@2x.png 800w" 
-                             alt="A photo of Jordan.">
+                             alt="A portrait of Jordan.">
         			</div>
         	    </div>
             </div>
@@ -94,7 +94,7 @@
             </div>
             <div class="row no-gutters">
     			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="http://www.thatcherstrainingcenter.com" target="new">
+                    <a href="http://www.thatcherstrainingcenter.com" target="_blank">
                         <img src="img/portfolio1.jpg" 
                              srcset="img/portfolio1@2x.jpg 800w" 
                              class="img-fluid" 
@@ -102,28 +102,43 @@
                     </a>
                 </div>
     			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="#">
-                        <img class="img-fluid" src="img/portfolio2.jpg" srcset="img/portfolio2@2x.jpg 800w" alt="">
+                    <a href="https://bananapad.azurewebsites.net" target="_blank">
+                        <img class="img-fluid"
+                             src="img/portfolio2.jpg"
+                             srcset="img/portfolio2@2x.jpg 800w"
+                             alt="A screenshot of the BananaPad homepage.">
                     </a>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="#">
-                        <img class="img-fluid" src="img/portfolio3.jpg" srcset="img/portfolio3@2x.jpg 800w" alt="">
+                    <a href="https://codepen.io/jljesse/pen/LzvoJq" target="_blank">
+                        <img class="img-fluid"
+                             src="img/portfolio3.jpg"
+                             srcset="img/portfolio3@2x.jpg 800w"
+                             alt="A screenshot of the What's The Weather? homepage.">
                     </a>
                 </div>
     			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="#">
-                        <img class="img-fluid" src="img/portfolio4.jpg" srcset="img/portfolio4@2x.jpg 800w" alt="">
+                    <a href="https://jordanljesse.github.io" target="_blank">
+                        <img class="img-fluid"
+                             src="img/portfolio4.jpg"
+                             srcset="img/portfolio4@2x.jpg 800w"
+                             alt="A screenshot of the Code As A Craft homepage.">
                     </a>
                 </div>
     			<div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="#">
-                        <img class="img-fluid" src="img/portfolio5.jpg" srcset="img/portfolio5@2x.jpg 800w" alt="">
+                    <a href="https://github.com/jordanljesse/justice-hours" target="_blank">
+                        <img class="img-fluid"
+                             src="img/portfolio5.jpg"
+                             srcset="img/portfolio5@2x.jpg 800w" 
+                             alt="A screenshot of the Justice Hours homepage.">
                     </a>
                 </div>
                 <div class="col-xs-12 col-md-6 col-lg-4 m-auto">
-                    <a href="#">
-                        <img class="img-fluid" src="img/portfolio6.jpg" srcset="img/portfolio6@2x.jpg 800w" alt="">
+                    <a href="https://codepen.io/jljesse/pen/dMEdNv" target="_blank">
+                        <img class="img-fluid"
+                             src="img/portfolio6.jpg"
+                             srcset="img/portfolio6@2x.jpg 800w"
+                             alt="A screenshot of an animated Andriod logo built with CSS.">
                     </a>
                 </div>
     		</div>
@@ -140,23 +155,33 @@
         			   	<form name="contact-us" method="post" action="index.php">
                             <div class="form-group">
                                 <label for="name">Name:</label>
-                                <input type="text" class="form-control" name="name" placeholder="First Last" required="required">
+                                <input type="text"
+                                       class="form-control"
+                                       name="name"
+                                       placeholder="name"
+                                       required="required">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="text" class="form-control" name="email" placeholder="your@email.address" required="required">
+                                <input type="text"
+                                       class="form-control"
+                                       name="email"
+                                       placeholder="name@email.com"
+                                       required="required">
                             </div>
                             <div class="form-group">
                                 <label for="message">Message:</label>
-                                <textarea name="message" class="form-control" placeholder="Your positive comment, constructive criticism, or curious inquiry goes here"></textarea>
+                                <textarea name="message"
+                                          class="form-control"
+                                          placeholder="Your message here"></textarea>
                             </div>
                             <div class="form-group pb-5">
-                                <input type="submit" class="btn btn-secondary" name="submit">
+                                <input type="submit" class="btn btn-secondary" name="submit" value="Submit">
                             </div>
                         </form>
         	    	</div>
                     <div class="col-md-6 col-lg-5">
-                        <p class="text-justify">I'm not currently seeking new roles/clients. However, feel free to reach out to me with any questions or comments you might have regarding your technical project and if I'm not able to help, I can probably put you in touch with somebody who can.</p>
+                        <p class="text-justify">I won't be available for new roles/clients until Q2 2019. However, feel free to reach out to me with any questions regarding your software project and if I'm not able to help, I can probably put you in touch with somebody who can.</p>
                         <ul class="list-inline">
                             <a href="https://github.com/jordanljesse">
                                 <li class="list-inline-item p-4">

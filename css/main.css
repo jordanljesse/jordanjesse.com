@@ -9,8 +9,10 @@
 	width: 60px;
 }
 .portrait {
-	height: 308px;
-	width: 308px;
+	max-height: 308px;
+	max-width: 308px;
+	height: 100%;
+	width: 100%;
 }
 /*so the fixed navbar doesn't cover up content*/
 body, .padded-top {
