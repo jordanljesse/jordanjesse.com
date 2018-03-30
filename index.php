@@ -156,7 +156,7 @@
                         </form>
         	    	</div>
                     <div class="col-md-6 col-lg-5">
-                        <p class="text-justify">Feel free to reach out to me with any questions or comments you might have regarding your project, design woes, or technical conundrums. You can also find me being social online using the links below.</p>
+                        <p class="text-justify">I'm not currently seeking new roles/clients. However, feel free to reach out to me with any questions or comments you might have regarding your technical project and if I'm not able to help, I can probably put you in touch with somebody who can.</p>
                         <ul class="list-inline">
                             <a href="https://github.com/jordanljesse">
                                 <li class="list-inline-item p-4">
